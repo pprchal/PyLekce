@@ -13,3 +13,13 @@ Třeba počítá přeponu ze záporného čísla.
 > Vytvoření funkce pro výpočet přepony
 
 > Vytvoření funkce pro vstup čísla
+
+## lekce4.py - smyčky 
+> Základy opakování programu
+
+
+## lekce5.py - smyčky a kreslení
+> Trochu obtížnější
+
+> Výstupem by ale měl být hezký graf funkce sinus
+
