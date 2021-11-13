@@ -45,7 +45,7 @@ def nactiCislo(otazka):
     print(otazka)
     vstup = sys.stdin.readline()
     cislo = float(vstup)
-    if vislo <= 0:
+    if cislo <= 0:
         print("číslo musí být vetší než nula")
         quit()
     return cislo
