@@ -1,19 +1,29 @@
 import sys
 import math
 
+# výpočet přepony
 
-def pythagor(a, b):
-    pomoc = (a*a)+(b*b)
-    return math.sqrt(pomoc)
+# začátky - co je co:
+# proměnné - kousek v paměti
+# typy proměnných (číslo, celé číslo, řetězec-to je libovolný text, datum)
+# příkaz je vlastně každý řádek. počítač začne prvním řádkem a pokračuje až do konce
 
-# print tiskne, má 1 parametr
+# print vypíše na obrazovku, má 1 vstup, neboli parametr 
 print('zadej A')
+
+# = je přiřazení, výsledek zprava vloží do proměnné vstup
+# takže sys.stdin.readline() načte vstup z klávesnice a vloží do proměnné vstup
 vstup = sys.stdin.readline()
-a = int(vstup)
+# jenže vstup je text, potřebujeme převést na číslo
+a = float(vstup)
 
 print('zadej B')
-b = int(sys.stdin.readline())
+# nebo můžebe zkrátit, stejné jako řádek 14
+b = float(sys.stdin.readline())
 
-c = pythagor (a, b)
+# a teď už jenom vypočteme délku přepony
+# odmocnina se vypočítá funkcí:   math.sqrt
+# [N1]
+c = 1
 print("Výsledek je: ")
 print(c)

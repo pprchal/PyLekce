@@ -23,3 +23,36 @@ Třeba počítá přeponu ze záporného čísla.
 
 > Výstupem by ale měl být hezký graf funkce sinus
 
+# Nápovědy
+## N1
+```py
+pomoc = (a*a)+(b*b)
+c = math.sqrt(pomoc)
+```
+
+## N2
+```
+if a <= 0:
+    print("číslo A musí být vetší než nula")
+    quit()
+```
+
+## N3
+```
+if b <= 0:
+    print("číslo B musí být vetší než nula")
+    quit()
+```
+
+## N4
+```
+def nactiCislo(otazka):
+    print(otazka)
+    vstup = sys.stdin.readline()
+    cislo = float(vstup)
+    if vislo <= 0:
+        print("číslo musí být vetší než nula")
+        quit()
+    return cislo
+```
+
