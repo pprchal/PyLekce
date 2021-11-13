@@ -13,18 +13,18 @@ def pythagor(a, b):
 def nactiCislo(otazka):
     print(otazka)
     vstup = sys.stdin.readline()
-    cislo = int(vstup)
+    cislo = float(vstup)
     return cislo
 
 # pokaždé by se muselo psát znova a znova - funkce nactiCislo
 # print('zadej A')
 # vstup = sys.stdin.readline()
-# a = int(vstup)
+# a = float(vstup)
 a = nactiCislo('zadej A')
 
 # pokaždé by se muselo psát znova a znova - funkce nactiCislo
 # print('zadej B')
-# b = int(sys.stdin.readline())
+# b = float(sys.stdin.readline())
 b = nactiCislo('zadej B')
 
 # pokaždé by se muselo psát znova a znova - funkce pythagor
@@ -38,6 +38,9 @@ c = pythagor(a, b)
 # https://stackoverflow.com/questions/55048668/how-to-print-a-float-variable-using-the-formatting#55048887
 
 # print(c)    # vypíše # 22.360679774997898
+
+# [N4]
+# úkol: oprav program tak, aby nešlo zadat nulu nebo záporné číslo
 
 
 print(f"Výsledek je: {c:.2f}")  
