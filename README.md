@@ -31,21 +31,21 @@ c = math.sqrt(pomoc)
 ```
 
 ## N2
-```
+```py
 if a <= 0:
     print("číslo A musí být vetší než nula")
     quit()
 ```
 
 ## N3
-```
+```py
 if b <= 0:
     print("číslo B musí být vetší než nula")
     quit()
 ```
 
 ## N4
-```
+```py
 def nactiCislo(otazka):
     print(otazka)
     vstup = sys.stdin.readline()
