@@ -24,27 +24,22 @@ Třeba počítá přeponu ze záporného čísla.
 > Výstupem by ale měl být hezký graf funkce sinus
 
 # Nápovědy
-## N1
+TIP: `CTRL-Shift-F` hledá ve všech souborech
+
+## [N1]
 ```py
 pomoc = (a*a)+(b*b)
 c = math.sqrt(pomoc)
 ```
 
-## N2
-```py
-if a <= 0:
-    print("číslo A musí být vetší než nula")
-    quit()
-```
-
-## N3
+## [N2]
 ```py
 if b <= 0:
     print("číslo B musí být vetší než nula")
     quit()
 ```
 
-## N4
+## [N3]
 ```py
 def nactiCislo(otazka):
     print(otazka)

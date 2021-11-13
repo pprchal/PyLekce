@@ -39,7 +39,7 @@ c = pythagor(a, b)
 
 # print(c)    # vypíše # 22.360679774997898
 
-# [N4]
+# [N3]
 # úkol: oprav program tak, aby nešlo zadat nulu nebo záporné číslo
 
 

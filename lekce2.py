@@ -18,7 +18,7 @@ if a <= 0:
 print('zadej B')
 b = float(sys.stdin.readline())
 # napiš program tak, aby číslo B nemohlo být menší než nula
-# [N3]
+# [N2]
 
 pomoc = (a*a)+(b*b)
 c = math.sqrt(pomoc)
